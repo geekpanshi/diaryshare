@@ -1,0 +1,12 @@
+* [[日常模板]]
+:PROPERTIES:
+:template: 每日模板
+:template-including-parent: false
+:END:
+** 随笔 #随笔
+*** 1
+*** 2
+** 记录 #关注的事件
+** 图片
+*** 1
+*** 2
