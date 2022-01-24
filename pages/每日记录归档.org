@@ -1,8 +1,8 @@
 * 每日更新记录在这里展示。
 :PROPERTIES:
 :query-table: true
-:query-sort-by: block
-:query-sort-desc: false
+:query-sort-by: date
+:query-sort-desc: true
 :query-properties: [:date :status]
 :END:
 #+BEGIN_QUERY
