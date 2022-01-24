@@ -1,3 +1,5 @@
+* 说明
+只记录 [[随笔]]、[[记录]]、[[图片]] 各 2-3 个累计不超过 9 条的每日分享。
 * [[https://www.geekpanshi.com/panshi/][我的博客]]
 * [[https://github.com/xingangshi][我的 GitHub]]
 * [[https://twitter.com/geekpanshi][我的 Twitter]]
