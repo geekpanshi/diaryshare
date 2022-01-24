@@ -1,0 +1,11 @@
+* [[https://www.geekpanshi.com/panshi/][我的博客]]
+* [[https://github.com/xingangshi][我的 GitHub]]
+* [[https://twitter.com/geekpanshi][我的 Twitter]]
+* 这是一个分享每日记录的博客
+** 日常记录
+- [[图片]]
+- [[随笔]]
+- [[箴言]]
+** 需要整理到博客的部分
+- [[forblog]]
+** [[每日记录归档]]

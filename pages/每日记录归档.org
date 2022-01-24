@@ -1,0 +1,15 @@
+* 每日更新记录在这里展示。
+:PROPERTIES:
+:query-table: true
+:query-sort-by: block
+:query-sort-desc: false
+:query-properties: [:date :status]
+:END:
+#+BEGIN_QUERY
+                  {:title [:h2 "每日记录"]
+                   :query [:find (pull ?b [*])
+                           :where
+                           [?b :block/properties ?props]
+                           [(get ?props :status) ?st]
+                           [(contains? #{"每日记录"} ?st)]]}
+#+END_QUERY

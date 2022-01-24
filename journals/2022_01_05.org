@@ -1,3 +1,6 @@
+* 属性相关
+#+status: 每日记录
+#+date: 2022_01_05
 * 文字 #随笔
 :PROPERTIES:
 :collapsed: false

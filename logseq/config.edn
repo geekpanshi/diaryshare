@@ -36,7 +36,7 @@
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
- :publishing/all-pages-public? true
+ ;; :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
@@ -48,11 +48,11 @@
  ;; If `:sidebar` is not set, sidebar will be hidden
  ;; Example:
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
- :default-home {:page "Changelog", :sidebar "Contents"}
+ ;; :default-home {:page "Changelog", :sidebar "Contents"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
+ :default-home {:page "磐石-每日分享" :sidebar []}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -60,7 +60,7 @@
 
  ;; Tell logseq to use a specific folder in the repo as a default location for journals
  ;; if not specified, journals are stored in `journals` directory
- ;; :journals-directory "your-directory"
+ :journals-directory "journals"
 
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
@@ -168,6 +168,7 @@
  :preferred-format :org
  :journal/page-title-format "yyyy_MM_dd"
  :publishing/all-pages-public? true
+ :favorites []
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
