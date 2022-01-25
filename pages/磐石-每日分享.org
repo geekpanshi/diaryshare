@@ -1,0 +1,14 @@
+* 说明
+只记录 [[随笔]]、[[记录]]、[[图片]] 各 2-3 个累计不超过 9 条的每日分享。
+** 关于我
+- [[https://www.geekpanshi.com/panshi/][博客]]
+- [[https://github.com/xingangshi][GitHub]]
+- [[https://twitter.com/geekpanshi][Twitter]]
+* 归类
+** 日常记录
+- [[图片]]
+- [[随笔]]
+- [[箴言]]
+** 与 [[https://www.geekpanshi.com/panshi/2021/index.html][博客随笔]] 兼容的部分
+- [[forblog]]
+* [[每日记录归档]]
