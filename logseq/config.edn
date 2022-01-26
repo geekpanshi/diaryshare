@@ -60,7 +60,7 @@
 
  ;; Tell logseq to use a specific folder in the repo as a default location for journals
  ;; if not specified, journals are stored in `journals` directory
- :journals-directory "journals"
+ :journals-directory "pages"
 
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
@@ -168,7 +168,7 @@
  :preferred-format :org
  :journal/page-title-format "yyyy_MM_dd"
  :publishing/all-pages-public? true
- :favorites ["每日记录归档" "磐石-每日分享" "tpl_dairy"]
+ :favorites ["笔记模板" "记录归档"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

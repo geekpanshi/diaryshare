@@ -21,12 +21,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - name: make journals public
-        run: sudo mkdir -p www/pages && sudo cp -rf ./journals/* ./www/pages
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@v0.1
       - name: add a nojekyll file # to make sure asset paths are correctly identified
-        run: sudo touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: copy assets
         run: sudo bash org_cp_assets.sh
       - name: Deploy 🚀
