@@ -1,3 +1,8 @@
 logseq/bak
 logseq/.recycle
-.DS_Store
+*.sw*
+logseq/bak
+logseq/pages-metadata.edn
+assets/.nomedia
+public
+www
