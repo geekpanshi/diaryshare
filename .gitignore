@@ -2,7 +2,6 @@ logseq/bak
 logseq/.recycle
 *.sw*
 logseq/bak
-logseq/pages-metadata.edn
 assets/.nomedia
 public
 www
