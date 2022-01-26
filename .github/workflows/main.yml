@@ -26,7 +26,7 @@ jobs:
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@v0.1
       - name: add a nojekyll file # to make sure asset paths are correctly identified
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+        run: sudo touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: copy assets
         run: sudo bash org_cp_assets.sh
       - name: Deploy 🚀
