@@ -12,3 +12,4 @@
 - [[箴言]]
 ** 与 [[https://www.geekpanshi.com/panshi/2021/index.html][博客随笔]] 兼容的部分
 - [[forblog]]
+** [[微博备份]]
