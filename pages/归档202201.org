@@ -1,0 +1,13 @@
+* 日志归档
+:PROPERTIES:
+:query-table: true
+:query-properties: [:title :status :type :topic :icon :rating :year]
+:END:
+#+BEGIN_QUERY
+{:title [:h4 "日志归档"]
+				   :query [:find (pull ?b [*])
+				           :where
+				           [?b :block/properties ?props]
+				           [(contains? #{"2022_02_18"} ?日期)]
+				           ]}
+#+END_QUERY
