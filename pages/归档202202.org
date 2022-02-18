@@ -8,11 +8,11 @@
 :query-properties: [:类型 :日期]
 :END:
 #+BEGIN_QUERY
-{:title [:h3 "2022 年 1 月归档"]
+{:title [:h3 "2022 年 2 月归档"]
  :query [:find (pull ?b [*])
        :where
        [?b :block/properties ?p]
        [(get ?p :类型) ?t]
-       [(= 2201 ?t)]]
+       [(= 2202 ?t)]]
 }
 #+END_QUERY
