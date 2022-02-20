@@ -164,12 +164,12 @@
  ;; If we set the level's value to 3, `b` will be opened and `c` will be collapsed.
  :ref/default-open-blocks-level 2
 
- :ref/linked-references-collapsed-threshold 100
+ :ref/linked-references-collapsed-threshold 35
  :preferred-format :org
  :journal/page-title-format "yyyy_MM_dd"
  :journal/file-name-format "yyyy_MM_dd"
  :publishing/all-pages-public? true
- :favorites ["笔记模板"]
+ :favorites ["笔记模板" "归档202202" "归档202201"]
  :graph/settings {:journal? true, :builtin-pages? true}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
