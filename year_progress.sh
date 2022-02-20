@@ -5,6 +5,7 @@ icon=''
 arr=('|' '/' '-' '\')
 index=0
 
+cur_year=`date +%Y`
 cur_time_stamp=`date +%s`
 
 cur_year_str=`date -d @$cur_time_stamp "+%Y"`"-01-01 00:00:00"
@@ -26,9 +27,9 @@ do
     icon=':'$icon
   fi
 done
-printf "[\033[32m%-50s\033[0m] 2022 Year Progress [ \033[31m%d%%\033[0m ] [%c]\r" "$icon" "$percentage" "${arr[$index]}"
+printf "[\033[32m%-50s\033[0m] %d 年进度条 [ \033[31m%d%%\033[0m ] [%c]\r" "$icon" "$cur_year" "$percentage" "${arr[$index]}"
 echo -e "\n"
 
 week_info=`echo \`TZ=Asia/Shanghai date +%U\` | awk '{print int($0)}'`
 
-printf "2022 年进度条 [ %s%% ], 第 [ %d ] 周。\n" "$percentage" "$(($week_info + 0))"
+printf "%d 年进度条 [ %s%% ]，第 [ %d ] 周。\n" "$cur_year" "$percentage" "$(($week_info + 0))"
