@@ -29,3 +29,6 @@ done
 printf "[\033[32m%-50s\033[0m] 2022 Year Progress [ \033[31m%d%%\033[0m ] [%c]\r" "$icon" "$percentage" "${arr[$index]}"
 echo -e "\n"
 
+week_info=`echo \`TZ=Asia/Shanghai date +%U\` | awk '{print int($0)}'`
+
+printf "2022 年进度条 [ %s%% ], 第 [ %d ] 周。\n" "$percentage" "$(($week_info + 0))"
