@@ -6,7 +6,7 @@
 ** 忌好为人师、减少内耗，轻装践行。
 ** 依赖于任何一个非纯文本格式的笔记软件，你就会失去自由。
 ** 如何让别人愿意帮你？首先，你要证明你不会咬人。
-** 关于我 [[https://www.geekpanshi.com/panshi/][Blog]] [[https://github.com/xingangshi][GitHub]] [[https://twitter.com/geekpanshi][Twitter]] [[https://weibo.com/u/6726260941][微博]] 。
+** 关于我 [[https://www.geekpanshi.com/panshi/][博客]] [[https://github.com/xingangshi][GitHub]] [[https://twitter.com/geekpanshi][Twitter]] [[https://weibo.com/u/6726260941][微博]] 。
 * 归类
 ** 日常记录
 - [[图片]]
