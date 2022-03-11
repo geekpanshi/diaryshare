@@ -171,6 +171,7 @@
  :publishing/all-pages-public? true
  :favorites ["归档202203" "归档202202" "归档202201" "常用的英文日期缩写" "周记模板"]
  :graph/settings {:journal? true, :builtin-pages? true}
+ :feature/enable-timetracking? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
