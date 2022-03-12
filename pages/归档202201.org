@@ -4,7 +4,7 @@
 :query-sort-by: 日期
 :query-table: true
 :query-sort-desc: true
-:query-properties: [:类型 :主页 :日期]
+:query-properties: [:类型 :日期 :date]
 :END:
 #+BEGIN_QUERY
 {:title [:h3 "2022 年 1 月归档"]
