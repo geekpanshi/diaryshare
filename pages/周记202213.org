@@ -1,13 +1,5 @@
-* [[周记模板]]
-:PROPERTIES:
-:template: 周记模板
-:template-including-parent: false
-:END:
-** 1
-```
 #+类型: 2203
 #+主页: [[归档202203]]
-```
 
 * 周一 [[2022_03_21]] [[Mar 21st, 2022]]
 ** #今日鸡汤 #周记
